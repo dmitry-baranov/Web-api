@@ -1,0 +1,188 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari",
+      "type": "max.spring.test.config.HikariConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "deprecated": true,
+      "name": "spring.mydatasource.myhikari.initialization-fail-fast",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "deprecated": true,
+      "name": "spring.mydatasource.myhikari.jdbc4-connection-test",
+      "type": "java.lang.Boolean",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "deprecated": true,
+      "name": "spring.mydatasource.myhikari.scheduled-executor-service",
+      "type": "java.util.concurrent.ScheduledThreadPoolExecutor",
+      "deprecation": {}
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "max.spring.test.config.HikariConfiguration",
+      "name": "spring.mydatasource.myhikari.validation-timeout",
+      "type": "java.lang.Long"
+    }
+  ]
+}
